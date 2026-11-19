@@ -1,0 +1,4 @@
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+'seed' depends on axioms: [propext]
+Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
+Axioms printed: propext 
