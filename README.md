@@ -64,6 +64,13 @@ of its construction is imported into this tree.
 - `defs.md` — where the model's definitions stand.
 - `proof/` — the Lean development, at present a bare
   skeleton, with the family gate.
+- `space.md` — the approach space: approaches by
+  semantic axes, its axis register, its dominance law,
+  and its seeded census, founded by the amendment of
+  2026-11-20.
+- `space/` — the register of that space: entries,
+  weighting epochs, verdicts, and its validator, in the
+  form of `registry/`.
 
 ## The gate
 

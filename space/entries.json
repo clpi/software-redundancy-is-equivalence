@@ -1,0 +1,2866 @@
+{
+  "axes": [
+    "novelty",
+    "impact",
+    "recombination",
+    "solving",
+    "quality",
+    "speed",
+    "leanness",
+    "power",
+    "width",
+    "ease",
+    "coverage",
+    "fidelity",
+    "solvability",
+    "reconversibility",
+    "reweightability",
+    "setup",
+    "uniqueness",
+    "compositionality",
+    "visibility",
+    "compactness",
+    "incrementality",
+    "reversibility",
+    "checkability",
+    "probes",
+    "misses",
+    "ties",
+    "parsimony",
+    "rank"
+  ],
+  "entries": [
+    {
+      "name": "frontier",
+      "family": "selection",
+      "kind": "approach",
+      "contract": "frontier selection battery: candidate sets read frontier first against an exhaustive oracle, held out permutations throughout",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "300 of 300 sets exact; 900 of 900 permutations; held out revalidation 734 of 734 frontier members recovered",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6; revalidated 984f1fa"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "measured",
+          "value": "terminal form 4814 bytes against 19100 bytes for the explicit form, on the lane six sub battery",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "12047b2"
+        },
+        "incrementality": {
+          "state": "measured",
+          "value": "one append form proved equal to the full form in its home and measured 300 of 300",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "12047b2"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "scalar",
+      "family": "selection",
+      "kind": "approach",
+      "contract": "frontier selection battery: candidate sets read frontier first against an exhaustive oracle, held out permutations throughout",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "620 of 695 frontier members recovered (89.2 percent); 75 members no positive weighting selects; measured loss",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "dual",
+      "family": "stop",
+      "kind": "approach",
+      "contract": "stop rule battery over streams: optimality claims checked against remaining alternatives",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "400 streams, 0 false optimality claims",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "budget",
+      "family": "stop",
+      "kind": "approach",
+      "contract": "stop rule battery over streams: optimality claims checked against remaining alternatives",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "192 of 400 optimality claims false (48 percent); measured loss",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "cone",
+      "family": "repair",
+      "kind": "approach",
+      "contract": "append and weight decrease epochs: exactness against the oracle, counted relaxations",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "936 of 936 epochs exact against the oracle; held out revalidation 941 of 941",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6; revalidated 984f1fa"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "measured",
+          "value": "2173 relaxations against 17964 from scratch and 35713 scan per round, results equal at every epoch",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "scratch",
+      "family": "repair",
+      "kind": "approach",
+      "contract": "append and weight decrease epochs: exactness against the oracle, counted relaxations",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "exact as the battery comparator form, at 17964 relaxations",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "measured",
+          "value": "17964 relaxations, the from scratch figure of the same battery",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "scan",
+      "family": "repair",
+      "kind": "approach",
+      "contract": "append and weight decrease epochs: exactness against the oracle, counted relaxations",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "exact but cost dominated; differing component: full scan per round",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "measured",
+          "value": "35713 relaxations, full scan per round",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "distinct",
+      "family": "closure",
+      "kind": "approach",
+      "contract": "append prefix comparisons against the least full closure, counted rule checks",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "0 mismatches across 3208 append prefix comparisons",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "measured",
+          "value": "9932 rule checks against 48597 for the naive form, results equal",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "blind",
+      "family": "closure",
+      "kind": "approach",
+      "contract": "append prefix comparisons against the least full closure, counted rule checks",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "192 mismatches; differing component: a duplicated premise counted twice and decremented once; measured loss",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "9623cd6"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "combination",
+      "family": "action",
+      "kind": "approach",
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "measured",
+          "value": "419 of 420 selections (99.8 percent), simulated scenarios only",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "measured",
+          "value": "fresh observation round trip on the model harness: move, drive, type, and automate over setting steps pass 20 of 20 each; jump, jump over, and touch refused by name 20 of 20 each; state model contract, not a live surface",
+          "source": "~/workspace/research/reversible-search-space-2026-11-20.md",
+          "pin": "d05ff699"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "measured",
+          "value": "0 probes wherever the observed model is complete",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "obscurity",
+      "family": "action",
+      "kind": "approach",
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "measured",
+          "value": "419 of 420 selections (99.8 percent), simulated scenarios only; 419 of 420 with no domain formula read",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "measured",
+          "value": "fresh observation round trip on the model harness, shared with the action family: the passing and refused by name verdicts of the reversibility record; state model contract, not a live surface",
+          "source": "~/workspace/research/reversible-search-space-2026-11-20.md",
+          "pin": "d05ff699"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "measured",
+          "value": "means per selection: 47.4 on move, 525.2 on drive, 244.7 on type",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "explicit",
+      "family": "action",
+      "kind": "approach",
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "measured",
+          "value": "391 of 420 selections (93.1 percent); failures at target occlusion in touch (21) and unlisted step premises in automate (8); measured loss as a standalone route",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "greedy",
+      "family": "action",
+      "kind": "approach",
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "measured",
+          "value": "46 of 420 selections (11.0 percent); refuted as a selection approach, retained as the standing control",
+          "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+          "pin": "ce06d30"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "linear",
+      "family": "weight",
+      "kind": "weight",
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "parameters": "weights (1, 1)",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "on the meta frontier of 6 of 39 configurations, as the linear (1, 1) representative",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "measured",
+          "value": "maximum miss count of the enumerated space; selects no middle member on any of the three instances",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "max",
+      "family": "weight",
+      "kind": "weight",
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "parameters": "weighted max, weights (1, 1)",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "on the meta frontier of 6 of 39 configurations; selected by the demonstration meta weighting (4, 2, 1, 1) restricted to the meta frontier",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "measured",
+          "value": "selects the middle member on all three instances",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "squared",
+      "family": "weight",
+      "kind": "weight",
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "parameters": "squared, weights (1, 1)",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "measured",
+          "value": "selects the middle member on all three instances",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "overlay",
+      "family": "weight",
+      "kind": "weight",
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "parameters": "balance overlay on linear (1, 1), overlay constant 1",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "measured",
+          "value": "selects the middle member on all three instances, at overlay constants 1, 2, and 3",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    },
+    {
+      "name": "lexicographic",
+      "family": "weight",
+      "kind": "weight",
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "parameters": "lexicographic order, first of the two entered orders",
+      "readings": {
+        "novelty": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "impact": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "recombination": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solving": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "quality": {
+          "state": "measured",
+          "value": "on the meta frontier of 6 of 39 configurations, both lexicographic orders standing on it",
+          "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+          "pin": "c710c2a"
+        },
+        "speed": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "leanness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "power": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "width": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ease": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "coverage": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "fidelity": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "solvability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reconversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reweightability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "setup": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "uniqueness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compositionality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "visibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "compactness": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "incrementality": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "reversibility": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "checkability": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "probes": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "misses": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "ties": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "parsimony": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        },
+        "rank": {
+          "state": "unmeasured",
+          "value": null,
+          "note": "no reading in the cited records under this axis and contract"
+        }
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "frontier",
+      "loser": "scalar",
+      "family": "selection",
+      "axes": [
+        "quality"
+      ],
+      "contract": "frontier selection battery of the validation lanes",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "9623cd6",
+      "note": "same contract, same instances; the loser stays entered as a measured loss"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "dual",
+      "loser": "budget",
+      "family": "stop",
+      "axes": [
+        "quality"
+      ],
+      "contract": "stop rule battery over streams",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "9623cd6",
+      "note": "the loser stays entered as a measured loss"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "cone",
+      "loser": "scratch",
+      "family": "repair",
+      "axes": [
+        "quality",
+        "incrementality"
+      ],
+      "contract": "append and weight decrease epochs against the oracle",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "9623cd6",
+      "note": "equal exactness, strictly less counted work"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "cone",
+      "loser": "scan",
+      "family": "repair",
+      "axes": [
+        "quality",
+        "incrementality"
+      ],
+      "contract": "append and weight decrease epochs against the oracle",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "9623cd6",
+      "note": "equal exactness, strictly less counted work; differing component named in the record"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "distinct",
+      "loser": "blind",
+      "family": "closure",
+      "axes": [
+        "quality"
+      ],
+      "contract": "append prefix comparisons against the least full closure",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "9623cd6",
+      "note": "the loser stays entered as a measured loss"
+    },
+    {
+      "kind": "tie",
+      "state": "measured",
+      "winner": "combination",
+      "loser": "obscurity",
+      "family": "action",
+      "axes": [
+        "solvability"
+      ],
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "ce06d30",
+      "note": "tied on task success at the frontier; separated on the probes axis by the next verdict"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "combination",
+      "loser": "obscurity",
+      "family": "action",
+      "axes": [
+        "probes"
+      ],
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "ce06d30",
+      "note": "the loser is retained as the fallback member of its family in its home record"
+    },
+    {
+      "kind": "dominance",
+      "state": "measured",
+      "winner": "combination",
+      "loser": "explicit",
+      "family": "action",
+      "axes": [
+        "solvability"
+      ],
+      "contract": "action model battery: seven scenario families, 60 paired seeded instances per family per rival, same instance seed for every rival; simulated scenarios only, no live surface",
+      "source": "~/workspace/research/meta-search-validation-2026-11-20.md",
+      "pin": "ce06d30",
+      "note": "the loser is retained as the combination route planning leg in its home record"
+    },
+    {
+      "kind": "dominance",
+      "state": "proposed",
+      "winner": "max",
+      "loser": "squared",
+      "family": "weight",
+      "axes": [
+        "misses",
+        "ties",
+        "parsimony",
+        "rank"
+      ],
+      "contract": "meta harness: 39 enumerated configurations over three instances, each instance frontier computed weight free; family representative at the stated parameters",
+      "source": "~/workspace/research/meta-search-lane1-2026-11-20.md",
+      "pin": "c710c2a",
+      "note": "proposed only in this register: the meta record states the reaching squared and overlay configurations are dominated at the meta level by the weighted max (1, 1) representative on the declared axes, but the per axis readings of the two representatives are not entered in this register yet, so under the law of space.md section 7 the verdict steers nothing until those readings append"
+    }
+  ]
+}
