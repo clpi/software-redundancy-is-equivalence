@@ -1,4 +1,41 @@
 Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
-'seed' depends on axioms: [propext]
+'witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'boundleast' depends on axioms: [propext, Quot.sound]
+'boundsat' depends on axioms: [propext, Quot.sound]
+'boundfin' depends on axioms: [propext, Quot.sound]
+'sametrans' does not depend on any axioms
+'runexcess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'enterexcess' depends on axioms: [propext, Quot.sound]
+'joinexcess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'recordentry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'mono' does not depend on any axioms
+'monoexcess' depends on axioms: [propext, Quot.sound]
+'excessrun' depends on axioms: [propext, Classical.choice, Quot.sound]
+'compound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'compoundge2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'appear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'appearcontrol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'effone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'derivedintended' depends on axioms: [propext, Quot.sound]
+'intendedneeds' depends on axioms: [propext, Quot.sound]
+'boundgrows' depends on axioms: [propext, Quot.sound]
+'boundrecorded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'reconpart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'reconcolors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'widen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'scoreeq' depends on axioms: [propext, Quot.sound]
+'measureeq' depends on axioms: [propext, Quot.sound]
+'registryexact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'notecolor' depends on axioms: [propext, Quot.sound]
+'colorsstand' depends on axioms: [propext, Quot.sound]
+'schemeatnewepoch' depends on axioms: [propext]
+'derivstore' does not depend on any axioms
+'derivsteps' does not depend on any axioms
+'derivelim' depends on axioms: [propext]
+'Control.zero' depends on axioms: [propext, Quot.sound]
+'Control.split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Control.free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Control.order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Control.filter' depends on axioms: [propext, Quot.sound]
 Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
-Axioms printed: propext 
+Axioms printed: Classical.choice Quot.sound propext 
