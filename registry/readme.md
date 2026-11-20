@@ -149,3 +149,39 @@ symbol count).
   construction, and the painting question is owned by
   the coloring and qualification lane in the
   validation record.
+
+## The positive witness, appended
+
+A later append, recorded here without editing any
+figure above: one witnessed join has been entered,
+on the measurement recorded in the witness record
+beside this readme (the file named witness in this
+folder). The joined pair is the cbor record and the
+msgpack record of one definition whose two texts are
+byte for byte equal at the extract pin.
+
+- Entries: 18. Unique configurations: 18, all at
+  symbolic grain. The fifteen standing entries stand
+  as recorded above; each gained only an epoch two
+  provenance entry and color pair, by append.
+- New entries, the views of the grown graph: level
+  cbor grown (33 terms, 32 edges, excess 1, 37
+  distinct symbols), level msgpack grown (45 terms,
+  44 edges, excess 1, 50 distinct symbols), and level
+  all grown (321 terms, 320 edges, excess 1, 329
+  distinct symbols). Excess is one in each grown
+  configuration and zero in every standing one.
+- Epochs: 3. Epoch two, solved over the eighteen
+  configurations on the standing objective and
+  searched set: weights 5, 9, 0, 0, 5 in the fixed
+  measure order; 18 distinct colors, least gap 9.
+- The positive cases of monotonicity and of
+  appearance now have canonical instances in this
+  registry, as the witness record states. The
+  colored weight stays unidentifiable (the colored
+  measure is zero on all eighteen configurations);
+  the excess weight is forced to zero inside the
+  searched set and is not separately identifiable in
+  the unbounded scheme space, for the definitional
+  reason the witness record and the epoch two entry
+  state.

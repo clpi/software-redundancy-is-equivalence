@@ -86,6 +86,63 @@
         ]
       },
       "note": "adopted over epoch zero on the metric above, measured on the set above; a weighting is never an upper bound and excludes nothing from the registry"
+    },
+    {
+      "epoch": 2,
+      "scheme": [
+        [
+          "terms",
+          5
+        ],
+        [
+          "edges",
+          9
+        ],
+        [
+          "excess",
+          0
+        ],
+        [
+          "colored",
+          0
+        ],
+        [
+          "symbols",
+          5
+        ]
+      ],
+      "metric": "first the count of distinct colors across the registered configurations, then the least gap between distinct colors, then the least weight sum, then the lexicographically least scheme in the fixed measure order",
+      "set": "the eighteen registered configurations of this registry",
+      "searched": "every scheme with each of the five weights from zero to nine inclusive, 100000 schemes, enumerated in lexicographic order",
+      "previous": [
+        [
+          "terms",
+          9
+        ],
+        [
+          "edges",
+          9
+        ],
+        [
+          "excess",
+          0
+        ],
+        [
+          "colored",
+          0
+        ],
+        [
+          "symbols",
+          6
+        ]
+      ],
+      "objective": {
+        "solved": [
+          18,
+          9
+        ]
+      },
+      "note": "adopted over epoch one on the metric above, measured on the set above; the set now carries one witnessed join, so the excess measure varies over it (zero on the fifteen standing configurations, one on the three grown ones) and no scheme in the searched set with a positive excess weight reaches the solved gap, so the solved excess weight of zero is forced inside the searched set; in the unbounded scheme space the excess weight is not separately identifiable on any set, because excess is by definition the term count minus the edge count, and the scheme with weights 4, 10, 1, 0, 5 in the measure order gives the same colors as the solved scheme on every configuration; the colored measure is constant zero over the whole set still, so its weight stays unidentifiable from the data and the least sum rule sets it to zero; a weighting is never an upper bound and excludes nothing from the registry"
     }
   ]
 }

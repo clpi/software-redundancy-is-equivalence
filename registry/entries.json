@@ -150,6 +150,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "adler32",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "adler32",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -160,6 +165,10 @@
         [
           1,
           264
+        ],
+        [
+          2,
+          210
         ]
       ]
     },
@@ -339,6 +348,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "base64",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "base64",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -349,6 +363,10 @@
         [
           1,
           360
+        ],
+        [
+          2,
+          286
         ]
       ]
     },
@@ -769,6 +787,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "cbor",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "cbor",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -779,6 +802,10 @@
         [
           1,
           792
+        ],
+        [
+          2,
+          628
         ]
       ]
     },
@@ -1045,6 +1072,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "crc32",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "crc32",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -1055,6 +1087,10 @@
         [
           1,
           504
+        ],
+        [
+          2,
+          400
         ]
       ]
     },
@@ -1418,6 +1454,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "jq",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "jq",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -1428,6 +1469,10 @@
         [
           1,
           996
+        ],
+        [
+          2,
+          789
         ]
       ]
     },
@@ -1865,6 +1910,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "json",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "json",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -1875,6 +1925,10 @@
         [
           1,
           840
+        ],
+        [
+          2,
+          667
         ]
       ]
     },
@@ -1963,6 +2017,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "lz4",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "lz4",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -1973,6 +2032,10 @@
         [
           1,
           138
+        ],
+        [
+          2,
+          110
         ]
       ]
     },
@@ -2211,6 +2274,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "md5",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "md5",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -2221,6 +2289,10 @@
         [
           1,
           444
+        ],
+        [
+          2,
+          353
         ]
       ]
     },
@@ -2802,6 +2874,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "msgpack",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "msgpack",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -2812,6 +2889,10 @@
         [
           1,
           1086
+        ],
+        [
+          2,
+          861
         ]
       ]
     },
@@ -2975,6 +3056,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "qoi",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "qoi",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -2985,6 +3071,10 @@
         [
           1,
           294
+        ],
+        [
+          2,
+          234
         ]
       ]
     },
@@ -3185,6 +3275,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "sha1",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "sha1",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -3195,6 +3290,10 @@
         [
           1,
           372
+        ],
+        [
+          2,
+          296
         ]
       ]
     },
@@ -3378,6 +3477,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "sha256",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "sha256",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -3388,6 +3492,10 @@
         [
           1,
           348
+        ],
+        [
+          2,
+          277
         ]
       ]
     },
@@ -3779,6 +3887,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "snappy",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "snappy",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -3789,6 +3902,10 @@
         [
           1,
           978
+        ],
+        [
+          2,
+          775
         ]
       ]
     },
@@ -4146,6 +4263,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "xxhash",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "xxhash",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -4156,6 +4278,10 @@
         [
           1,
           672
+        ],
+        [
+          2,
+          533
         ]
       ]
     },
@@ -7837,6 +7963,11 @@
           "pin": "aeffb29b14ec0535f7fb8d8c6f3ea07845eab616",
           "level": "all",
           "epoch": 1
+        },
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "all",
+          "epoch": 2
         }
       ],
       "colors": [
@@ -7847,6 +7978,4704 @@
         [
           1,
           7752
+        ],
+        [
+          2,
+          6139
+        ]
+      ]
+    },
+    {
+      "level": "cbor",
+      "configuration": {
+        "edges": [
+          {
+            "terms": [
+              {
+                "head": "def:cbor:arg",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:array",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:asnum",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:bytes",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:dec",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:encode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:gather",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:get",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:half",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:head",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:hex",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:inc",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:magnitude",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:map",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:node",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:num",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:nval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:parse",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:put",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:real",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:same",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:samemag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:scale",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:show",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:simple",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:single",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:tag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:take",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              },
+              {
+                "head": "def:msgpack:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          }
+        ]
+      },
+      "measures": {
+        "terms": 33,
+        "edges": 32,
+        "excess": 1,
+        "colored": 0,
+        "symbols": 37
+      },
+      "provenance": [
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "cbor",
+          "epoch": 2
+        }
+      ],
+      "colors": [
+        [
+          2,
+          638
+        ]
+      ]
+    },
+    {
+      "level": "msgpack",
+      "configuration": {
+        "edges": [
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:arg",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:array",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:asnum",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:bytes",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:collect",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:copy",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:dec",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:encode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:ext",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:flag",
+                "args": [
+                  "bool",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:fval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:gather",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:get",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:getext",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:head",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int",
+                  "int",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:hex",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:lead",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:magnitude",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:map",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:negate",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:node",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:none",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:num",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:nval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:pad",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:parse",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:put",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:real",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:same",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:samemag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:scale",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:show",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:signed",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:single",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:span",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:take",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:tally",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:trim",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:within",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              },
+              {
+                "head": "def:msgpack:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          }
+        ]
+      },
+      "measures": {
+        "terms": 45,
+        "edges": 44,
+        "excess": 1,
+        "colored": 0,
+        "symbols": 50
+      },
+      "provenance": [
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "msgpack",
+          "epoch": 2
+        }
+      ],
+      "colors": [
+        [
+          2,
+          871
+        ]
+      ]
+    },
+    {
+      "level": "all",
+      "configuration": {
+        "edges": [
+          {
+            "terms": [
+              {
+                "head": "def:adler32:broad",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:combine",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:feed",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:narrow",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:once",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:stream",
+                "args": [
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:adler32:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:base64:base"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:codeof",
+                "args": [
+                  "str",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:base64:dash"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:decode",
+                "args": [
+                  "val",
+                  "val",
+                  "str"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:encode",
+                "args": [
+                  "val",
+                  "val",
+                  "str"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:base64:plus"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:read",
+                "args": [
+                  "str",
+                  "val",
+                  "str"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:rev",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:base64:safe"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:spell",
+                "args": [
+                  "val",
+                  "val",
+                  "str"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:base64:standard"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:base64:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:arg",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:array",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:asnum",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:bytes",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:dec",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:encode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:gather",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:get",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:half",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:head",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:hex",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:inc",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:magnitude",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:map",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:node",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:num",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:nval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:parse",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:put",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:real",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:same",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:samemag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:scale",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:show",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:simple",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:single",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:tag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:take",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:apply",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:basis",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:broad",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:build",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:combine",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:compose",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:feed",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:leap",
+                "args": [
+                  "int",
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:narrow",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:once",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:shift",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:slices",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:stream",
+                "args": [
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:crc32:tab"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:crc32:tabs"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:crc32:tick",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:apply"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:bound"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:cond"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:cursor"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:gap"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:head"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:held"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:key"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:last"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:limit"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:link"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:literal"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:make"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:missing"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:nest"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:no"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:node"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:origin"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:outer"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:pair"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:parse"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:pipe"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:plain"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:problem"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:push"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:query"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:result"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:saved"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:shape"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:skip"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:source"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:jq:split",
+                "args": [
+                  "int",
+                  "int",
+                  "int",
+                  "str"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:stage"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:stages"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:steps"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:store"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:stream"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:text"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:jq:value",
+                "args": [
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:walk"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:jq:yes"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:arr",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:digits",
+                "args": [
+                  "real",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:esc",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:fmt",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "bool"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:get",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:hexfour",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:hv",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:identical",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:mag",
+                "args": [
+                  "real",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:node",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:num",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:numb",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:obj",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:parse",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:pret",
+                "args": [
+                  "val",
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:pretty",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:quoted",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:raw",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:rend",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:render",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:same",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:shorten",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:size",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:skip",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:spell",
+                "args": [
+                  "real",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:tabs",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:ten",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:txt",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:utf",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:val",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:json:word",
+                "args": [
+                  "hole",
+                  "gap",
+                  "slot"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:lz4:emitlen",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:lz4:press",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:lz4:pull",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:lz4:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:lz4:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:band",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:build",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:digest",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:hash",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:padded",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:pick",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:shift",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:slot",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:start",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:turn",
+                "args": [
+                  "hole",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:md5:word",
+                "args": [
+                  "hole",
+                  "gap",
+                  "slot"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:arg",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:array",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:asnum",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:bytes",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:collect",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:copy",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:dec",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:encode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:ext",
+                "args": [
+                  "int",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:flag",
+                "args": [
+                  "bool",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:fval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:gather",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:get",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:getext",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:head",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int",
+                  "int",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:hex",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:lead",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:magnitude",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:map",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:negate",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:node",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:none",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:num",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:nval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:pad",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:parse",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:put",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:real",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:same",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:samemag",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:scale",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:show",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:signed",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:single",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:span",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:take",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:tally",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:trim",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:msgpack:within",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:decode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:dist",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:encode",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:fit",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:seen",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:slot",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:word",
+                "args": [
+                  "hole",
+                  "gap",
+                  "slot"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:qoi:wrap",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:band",
+                "args": [
+                  "int",
+                  "val",
+                  "int",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:digest",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:hash",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:padded",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:start",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:step",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:turn",
+                "args": [
+                  "hole",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha1:word",
+                "args": [
+                  "hole",
+                  "gap",
+                  "slot"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:build",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:digest",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:emit",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:hash",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:padded",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:start",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:turn",
+                "args": [
+                  "hole",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:sha256:word",
+                "args": [
+                  "hole",
+                  "gap",
+                  "slot"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:press",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:pull",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:putlit",
+                "args": [
+                  "val",
+                  "val",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:putmatch",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:putv",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:replay",
+                "args": [
+                  "val",
+                  "val",
+                  "int",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w1"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w10"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w11"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w12"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w13"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w14"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w15"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w16"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w17"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w18"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w19"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w2"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w20"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w21"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w22"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w23"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w24"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w25"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w26"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w27"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w28"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w29"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w3"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w30"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w4"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w5"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w6"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w7"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w8"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:w9"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "atom": "def:snappy:wcount"
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:snappy:wordat",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:add",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:avalanche",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:bytesof",
+                "args": [
+                  "str",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:diff",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:half",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:hash",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:hex8",
+                "args": [
+                  "int",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:hexof",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:lane",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:merge",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:mul",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:p1",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:p2",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:p3",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:p4",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:p5",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:pair",
+                "args": [
+                  "int",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:plain",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:push",
+                "args": [
+                  "val",
+                  "val",
+                  "hole"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:quad",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:round",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:shr",
+                "args": [
+                  "val",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:stream",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:text",
+                "args": [
+                  "hole",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:turn",
+                "args": [
+                  "hole",
+                  "val",
+                  "int"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:xor",
+                "args": [
+                  "val",
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:xxhash:zero",
+                "args": [
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          },
+          {
+            "terms": [
+              {
+                "head": "def:cbor:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              },
+              {
+                "head": "def:msgpack:uval",
+                "args": [
+                  "val",
+                  "val"
+                ]
+              }
+            ],
+            "colors": []
+          }
+        ]
+      },
+      "measures": {
+        "terms": 321,
+        "edges": 320,
+        "excess": 1,
+        "colored": 0,
+        "symbols": 329
+      },
+      "provenance": [
+        {
+          "pin": "69ee40eb000f557e07dae548efa9a503703ecb35",
+          "level": "all",
+          "epoch": 2
+        }
+      ],
+      "colors": [
+        [
+          2,
+          6130
         ]
       ]
     }
