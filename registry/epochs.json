@@ -1,0 +1,91 @@
+{
+  "epochs": [
+    {
+      "epoch": 0,
+      "scheme": [
+        [
+          "terms",
+          1
+        ],
+        [
+          "edges",
+          1
+        ],
+        [
+          "excess",
+          1
+        ],
+        [
+          "colored",
+          1
+        ],
+        [
+          "symbols",
+          1
+        ]
+      ],
+      "note": "founding scheme, unit weights; the spec fixes the five measures and no numeric founding weights, so unit weights are the choice taken and named here"
+    },
+    {
+      "epoch": 1,
+      "scheme": [
+        [
+          "terms",
+          9
+        ],
+        [
+          "edges",
+          9
+        ],
+        [
+          "excess",
+          0
+        ],
+        [
+          "colored",
+          0
+        ],
+        [
+          "symbols",
+          6
+        ]
+      ],
+      "metric": "first the count of distinct colors across the registered configurations, then the least gap between distinct colors, then the least weight sum, then the lexicographically least scheme in the fixed measure order",
+      "set": "the fifteen registered configurations of this registry",
+      "searched": "every scheme with each of the five weights from zero to nine inclusive, 100000 schemes, enumerated in lexicographic order",
+      "previous": [
+        [
+          "terms",
+          1
+        ],
+        [
+          "edges",
+          1
+        ],
+        [
+          "excess",
+          1
+        ],
+        [
+          "colored",
+          1
+        ],
+        [
+          "symbols",
+          1
+        ]
+      ],
+      "objective": {
+        "founding": [
+          15,
+          1
+        ],
+        "solved": [
+          15,
+          12
+        ]
+      },
+      "note": "adopted over epoch zero on the metric above, measured on the set above; a weighting is never an upper bound and excludes nothing from the registry"
+    }
+  ]
+}
