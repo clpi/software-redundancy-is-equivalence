@@ -1659,3 +1659,111 @@ This worked run is an illustration of the rules, in
 proposed semantics. It is not a claim, it is not a
 control, and no proof obligation rests on it; the
 controls are the proof lane's, in the proof tree.
+
+## 21. Landing addendum, 2026-11-24
+
+The fourteen theorem-to-be claims of section 18
+(claims one to thirteen and fifteen) stand proved in
+the proof tree. proof/Resolve.lean carries the
+implementation and one proved theorem per claim, in
+the register's order, over the model's own
+operations: claim one (claimone), claim two
+(claimtwo), claim three (claimthree), claim four
+(claimfour), claim five (claimfive), claim six
+(claimsix, with claimsixintake for its intake
+clauses), claim seven (claimseven), claim eight
+(claimeight), claim nine (claimnine), claim ten
+(claimten, with claimtenalgebra for its algebra
+part), claim eleven (claimeleven), claim twelve
+(claimtwelve, with claimtwelvestep for its step
+form), claim thirteen (claimthirteen), and claim
+fifteen (claimfifteen, with visitresolves as its
+resumption engine). By the rule of section 18, the
+claims are implemented behavior at this landing;
+they become verified behavior when the family gate
+checks the proof tree at the landed pin, and the
+gate's log at that pin is the record of it. Claim
+fourteen and premises one to three stand as
+premises, unchanged.
+
+The eight gaps of section 19 are dispositioned:
+
+- Gap one: closed by the implementation. A record
+  candidate whose level name clashes is refused
+  with reason name and nothing is appended; the
+  target step refuses the same way. The interim
+  rule is the behavior.
+- Gap two: stands as a premise. The implementation
+  takes the effective scope as one predicate input;
+  a caller's ranking of appended scopes is the
+  caller's premise. The interim rule stands.
+- Gap three: stands as a premise. The budget is a
+  counted input; translation from another form of
+  availability is the caller's premise. The interim
+  rule stands.
+- Gap four: stands as a premise for intent in other
+  forms, owner unchanged. Intent items in the
+  implementation are terms only.
+- Gap five: closed by construction. The
+  implementation is one run; runs compose in
+  sequence, and claim fifteen is the composition
+  statement. The interim rule is the behavior.
+- Gap six: stands as premise two. The check is an
+  input function; its honesty is the premise.
+  Owner unchanged.
+- Gap seven: stands under its interim rule, owner
+  unchanged. Filters are decidable predicate
+  values, used as readings only.
+- Gap eight: the behavior part is closed by the
+  implementation — a run whose budget cannot pay
+  proceeds with every line deferred at zero budget
+  (the output graph is the input graph and the
+  bound is not taken), and on exhaustion before the
+  target record the target line states deferred and
+  the bound is not taken. Whether such a run counts
+  as a projection of the target stays open with
+  the owner.
+
+Two design rulings of 2026-11-24, recorded in the
+program record of this generalization, bound the
+scheduler that this spec's saturation reading
+implies. They are registered here as further gaps,
+each with the implementation's interim rule. The
+cone restriction of the same ruling is not a gap
+here: relevance and the derived set are the cone,
+implemented and proved (claims three, six, and
+eleven).
+
+- Gap nine, per-rule fuel and backoff. A scheduler
+  over rewrite rules carries per-rule fuel with
+  exponential backoff keyed on node growth without
+  merges. Interim rule: the run's budget and the
+  sweeps' fuel bound every search; no step fires
+  outside them. Owner: the coordinator.
+- Gap ten, bidirectional scoring. Rule application
+  is scored by distance reduction toward the
+  witnessed class, in both directions. Interim
+  rule: candidates are visited in the fixed order
+  of the visiting key; no distance score is read.
+  Owner: the coordinator.
+- Gap eleven, instantiation depth. Rule
+  instantiation around a cycle carries a depth
+  count. Interim rule: the model has no rule
+  instantiation; operations are data, applied once
+  per visit under the budget. Owner: the
+  coordinator.
+- Gap twelve, beam and bridge steps. A greedy
+  search carries a small beam width or an
+  occasional bridge step for the valley problem.
+  Interim rule: the pass order is total and no step
+  is taken for its bridging value; the valley
+  problem and arrival-order sensitivity are
+  accepted properties of the bounded design, not
+  defects. Owner: the coordinator.
+- Gap thirteen, provenance. Derivation records are
+  per-epoch and ephemeral, in a flat arena under a
+  first-parent-wins minimum-depth rule; only global
+  rule statistics persist across epochs. Interim
+  rule: the implementation keeps no derivation
+  record; verdicts and the result record are the
+  only record of a run. Owner: the coordinator.

@@ -49,6 +49,8 @@ their singleton edges. Output is that record alone.
 Covered by: sections 8 step 4, 9.2, and 10.1; claim
 eight for the bound. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case A2 — empty graph, candidates present
 
 Instance: the empty graph; candidates naming terms
@@ -61,6 +63,8 @@ sections 7.3 and 8 step 5.
 Covered by: sections 7.3 and 8; claim six. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case A3 — target term already collected, alone
 
 Instance: a target term standing in a singleton edge
@@ -71,6 +75,8 @@ section 8.2 operation 1 provides; the bound includes
 that edge whole.
 Covered by: sections 9.2 and 10.1; claim one. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case A4 — target term already collected, in a wide edge
 
@@ -83,6 +89,8 @@ outside the bound.
 Covered by: sections 10.1 and 11.1; claims eight and
 nine. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case A5 — one term collected under two levels
 
 Instance: a term named by the target level and by a
@@ -94,6 +102,8 @@ clause 2 and `algorithm.md` section 9.3.
 Covered by: section 9.3; claim seven. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case A6 — a graph value that is not valid
 
 Instance: an input value failing a validity invariant
@@ -103,6 +113,8 @@ the single line graph not valid; nothing is repaired
 and nothing is appended, under section 8 step 0.
 Covered by: sections 8 step 0 and 16.1. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ## Family B — kind and collection state of a candidate
 
@@ -115,6 +127,8 @@ check; a singleton edge is appended.
 Covered by: sections 7.1, 7.3, and 8 step 5. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case B2 — admit a term already collected
 
 Instance: an admit candidate whose term is collected.
@@ -124,6 +138,8 @@ and it is not redundancy, under `spec.md` sections
 8.2 and 10.
 Covered by: sections 7.3 and 8 step 5. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case B3 — join two uncollected terms
 
@@ -136,6 +152,8 @@ that unit and then merged into one edge.
 Covered by: sections 7.3, 7.5, and 8 step 5; claim
 one. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case B4 — join with one term collected
 
 Instance: a join candidate, one term collected, one
@@ -145,6 +163,8 @@ join step and the two edges merge into one, under
 `spec.md` section 8.2 operation 2.
 Covered by: sections 7.3 and 8 step 5. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case B5 — join two terms in two edges
 
@@ -158,6 +178,8 @@ one.
 Covered by: section 8 step 5; claim one. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case B6 — join two terms already in one edge
 
 Instance: a join candidate whose terms already stand
@@ -168,6 +190,8 @@ graph needed no candidate, but a presented candidate
 is processed as presented.
 Covered by: sections 7.3 and 8 step 5. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case B7 — join a term to itself
 
@@ -180,6 +204,8 @@ redundancy requires two distinct spellings in one
 edge.
 Covered by: section 8 step 5. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case B8 — record a level not yet recorded
 
 Instance: a record candidate or the target, its name
@@ -189,6 +215,8 @@ the bound taken and recorded at that moment, charged
 atomically under sections 7.5 and 9.2.
 Covered by: sections 9.2 and 10.1; claim eight. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case B9 — record a level already recorded, same content
 
@@ -200,6 +228,8 @@ in it, as `spec.md` section 8.2 operation 3 provides;
 no second level value stands.
 Covered by: section 9.2. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case B10 — record a level name with different content
 
 Instance: a level of the same name recorded with
@@ -210,6 +240,8 @@ Covered by: section 9.2, as the interim rule of gap
 one. State: gap — gap one of `algorithm.md`
 section 19; owner, the coordinator.
 
+Decided, 2026-11-24: gap one is closed by the implementation — a record candidate whose level name clashes is refused with reason name and nothing is appended (the candidate gate and the target step both refuse it), and claim eight, proved at this landing, covers the bound at every record. The interim rule is the behavior.
+
 ### Case B11 — paint a new color
 
 Instance: a paint candidate whose term is collected,
@@ -218,6 +250,8 @@ Does: the color is appended to the edge's color list;
 the entry is appended; charged paint and check.
 Covered by: sections 7.3 and 12.1; claim ten. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case B12 — paint a color already present
 
@@ -233,6 +267,8 @@ case B11, not this case.
 Covered by: section 12.1; claim ten. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case B13 — paint a term not collected
 
 Instance: a paint candidate whose term is not
@@ -242,6 +278,8 @@ deferred with reason collected; the algorithm invents
 no admission to supply the term, under section 7.3.
 Covered by: sections 7.3 and 8 step 5; claim six.
 State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ## Family C — the scope state of terms
 
@@ -254,6 +292,8 @@ required rank is trivial, so it is visited first under
 section 6.
 Covered by: sections 5.1 and 6. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case C2 — a first order term under a trivial ceiling
 
 Instance: a form with an atom head and a compound
@@ -265,6 +305,8 @@ already collected, and its state is unmeasured.
 Covered by: sections 5.1 and 16.4; claim three. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case C3 — a higher order term under a first order ceiling
 
 Instance: a form whose head is itself a form, anywhere
@@ -275,6 +317,8 @@ may be resolved as itself, never as a substitute for
 this term, under section 5.1.
 Covered by: sections 5.1 and 16.4; claim three. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case C4 — the scope admits nothing presented
 
@@ -290,6 +334,8 @@ scope boundary, and it is a normal run.
 Covered by: sections 5.1, 8 steps 1 and 4, and 16.
 State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case C5 — a level with an empty term list
 
 Instance: a target or record candidate whose term
@@ -299,6 +345,8 @@ admits nothing; its bound is the empty state; its view
 is the empty list. It is not case C4: the scope is not
 empty, the level is.
 Covered by: section 9.2. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case C6 — one term of a record outside the scope
 
@@ -312,6 +360,8 @@ unaffected.
 Covered by: sections 8 step 4 and 9.2. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case C7 — an appended scope with a declared rank
 
 Instance: a scope predicate appended under `spec.md`
@@ -321,6 +371,8 @@ Does: the effective scope and the visiting order use
 the declared rank exactly as a named scope's rank is
 used.
 Covered by: sections 5.2 and 6. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case C8 — an appended scope with no declared rank
 
@@ -332,6 +384,8 @@ Covered by: section 5.2, as the interim rule of gap
 two. State: gap — gap two of `algorithm.md`
 section 19; owner, the coordinator.
 
+State, 2026-11-24: gap two stands as a premise — the implementation takes the effective scope as one predicate input, so no rank reading arises inside a run; a caller's ranking of appended scopes is the caller's premise, and the interim rule stands. Owner unchanged.
+
 ### Case C9 — widening between runs
 
 Instance: a term deferred for scope in one run, then
@@ -341,6 +395,8 @@ pass; the earlier run's appends stand unchanged and
 the growth relation holds across the widening, under
 section 5.3.
 Covered by: section 5.3; claim one. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ## Family D — the witness state
 
@@ -356,6 +412,8 @@ requires of equivalence assertions.
 Covered by: sections 4.1 and 8 step 5. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case D2 — no witness presented
 
 Instance: a join, paint, or record candidate whose
@@ -365,6 +423,8 @@ appended for it; the check step is not charged, since
 no check is run on an absent witness, the absence
 being read at intake and at the visit.
 Covered by: sections 4.1 and 16.1. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case D3 — witness check fails
 
@@ -376,6 +436,8 @@ charged and nothing is applied, under section 8
 step 5.
 Covered by: section 8 step 5; premise two covers the
 honesty of a pass, not of a fail. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case D4 — the same witness for two candidates
 
@@ -389,6 +451,8 @@ in all five fields, takes the cached verdict at no
 check charge.
 Covered by: section 7.2. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case D5 — equivalence offered from spelling, a name, or a hash
 
 Instance: a join candidate whose named ground is the
@@ -399,6 +463,8 @@ section 6 forbids equivalence from each of these
 grounds, and the algorithm applies that rule at the
 visit, whatever the check input returns.
 Covered by: sections 11.1 and 16.1. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case D6 — two spellings differing only in argument order
 
@@ -411,6 +477,8 @@ provide. The algorithm does not silently identify
 them at intake, at any sweep, or in any reading.
 Covered by: section 9.3. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case D7 — a view offered as a witness
 
 Instance: a candidate whose named ground is that its
@@ -419,6 +487,8 @@ Does: refused with reason witness, under section
 11.1: a view is a reading, never evidence about its
 own members.
 Covered by: section 11.1. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ## Family E — the budget state
 
@@ -436,6 +506,8 @@ gap eight covers whether such a run counts as a
 projection. State: accounted, with gap eight open on
 the projection wording only; owner, the coordinator.
 
+Decided, 2026-11-24: the behavior at zero budget is the implementation's — every line deferred with reason budget, the output graph the input graph, the bound not taken (the budget-zero case of the run decomposition, proved at this landing). Whether such a run counts as a projection of the target stays open with the owner, as gap eight records; the behavior part of the gap is closed.
+
 ### Case E2 — budget exactly the counted cost of the run
 
 Instance: a budget equal to the sum the run spends.
@@ -443,6 +515,8 @@ Does: the run completes every resolution its tests
 pass, ending with budget left zero; no candidate is
 deferred for budget.
 Covered by: sections 7 and 8. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case E3 — budget short by one at a join
 
@@ -454,6 +528,8 @@ pass continues to later candidates, which may cost
 less, under section 8 step 5.
 Covered by: sections 7.5 and 8 step 5; claim six.
 State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case E4 — exhaustion between the sub steps a join would need
 
@@ -468,6 +544,8 @@ growth, and the join's cost is counted again at its
 visit against the graph as it then stands.
 Covered by: section 7.5. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case E5 — exhaustion before the target record
 
 Instance: intake charges leave less than the target
@@ -481,6 +559,8 @@ covers the projection wording. State: accounted, with
 gap eight open on the projection wording only; owner,
 the coordinator.
 
+Decided, 2026-11-24: the behavior on exhaustion before the target record is the implementation's — the target line states deferred and the bound is not taken. Whether such a run counts as a projection of the target stays open with the owner, as gap eight records; the behavior part of the gap is closed.
+
 ### Case E6 — exhaustion in the middle of a list of paints
 
 Instance: several paint candidates on one edge, the
@@ -493,6 +573,8 @@ all.
 Covered by: sections 7.5, 8 step 5, and 12.1. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case E7 — budget left, every remaining candidate costing more
 
 Instance: at the stop, budget left is positive and
@@ -504,6 +586,8 @@ later run, under sections 16.2 and 16.3.
 Covered by: sections 16.2 and 16.3; claims six and
 thirteen. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case E8 — budget in the full form
 
 Instance: availability in form two of section 4.2,
@@ -513,6 +597,8 @@ of section 7.4; the run proceeds exactly as a form one
 run with that budget, and may end with budget left,
 which is reported and is not an error.
 Covered by: sections 4.2 and 7.4. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case E9 — availability in a form that is not counted
 
@@ -525,6 +611,8 @@ Covered by: section 4.2, as the interim rule of gap
 three. State: gap — gap three of `algorithm.md`
 section 19; owners, the coordinator with the
 measurement lane.
+
+State, 2026-11-24: gap three stands as a premise — the budget is a counted input; any translation from another form of availability is the caller's premise, named by the caller. Owner unchanged.
 
 ## Family F — the level and bound state
 
@@ -541,6 +629,8 @@ With repeated candidates, each is processed as the
 repeat its operation defines, under family B.
 Covered by: sections 9.2 and 10.1. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case F2 — bound reached
 
 Instance: a full pass in which no step admits a term
@@ -552,6 +642,8 @@ bound reading and the derived set defer with reason
 target, and claims outside the recorded bound are
 unmeasured, under section 10.3.
 Covered by: sections 10.3 and 16.4. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case F3 — a candidate joining a term outside the bound
 
@@ -565,6 +657,8 @@ standing unchanged as the record of its moment.
 Covered by: sections 8 step 3 and 10.2. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case F4 — two levels appended in either order
 
 Instance: the target level and one further level,
@@ -576,6 +670,8 @@ their moments, and growth holds from the start in both
 orders.
 Covered by: section 9.3; claim seven. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case F5 — a finer term that is a part of a coarser target term
 
@@ -589,6 +685,8 @@ parts on its own, under section 9.3.
 Covered by: sections 8 step 3 and 9.3. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case F6 — a finer term not presented
 
 Instance: a coarser target term whose parts include
@@ -599,6 +697,8 @@ over presented terms only, and it ends, under
 section 9.3.
 Covered by: section 9.3; section 16.4 for their state.
 State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case F7 — the bound reading grows after the bound is recorded
 
@@ -612,6 +712,8 @@ name.
 Covered by: sections 10.1 and 10.2; claim eight.
 State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case F8 — a target whose terms stand in no edge at its record
 
 Instance: every target term uncollected at step 4.
@@ -622,6 +724,8 @@ already stood in, there being none; the view at the
 target is those edges whole.
 Covered by: sections 9.2, 10.1, and 11.1. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ## Family G — the view and filter state
 
@@ -635,6 +739,8 @@ edges; nothing is deferred or refused by the view
 itself.
 Covered by: section 11.1. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case G2 — a filter passes no edge
 
 Instance: a filtered view whose predicate passes no
@@ -643,6 +749,8 @@ Does: the filtered view is empty as a reading; it
 paints nothing, defers nothing, and refuses nothing,
 under section 11.2.
 Covered by: section 11.2. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case G3 — a filter passes some edges
 
@@ -653,6 +761,8 @@ whole, all their terms and all their colors, including
 colors the predicate does not pass; filtering never
 selects part of an edge.
 Covered by: section 11.2. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case G4 — the observed filter read as the qualified filter
 
@@ -668,6 +778,8 @@ the algorithm.
 Covered by: sections 11.2 and 12.3; claim ten. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case G5 — a view under growth
 
 Instance: the view at the target taken at the input
@@ -677,6 +789,8 @@ terms and in colors, of exactly one edge of the
 second view, under section 11.1.
 Covered by: section 11.1; claim nine. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case G6 — a filter predicate in no named language
 
@@ -689,6 +803,8 @@ Covered by: section 11.2, as the interim rule of gap
 seven. State: gap — gap seven of `algorithm.md`
 section 19; owner, the coloring and qualification
 lane.
+
+State, 2026-11-24: gap seven stands under its interim rule — filters in the implementation are decidable predicate values, used as readings only. Owner unchanged.
 
 ## Family H — the qualification overlap state
 
@@ -703,6 +819,8 @@ edge, and no overwriting, under section 12.1.
 Covered by: section 12.1; claim ten. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case H2 — one qualification paints intended, another paints stray, on one edge
 
 Instance: the same edge painted intended by one
@@ -712,6 +830,8 @@ any reading that needs one qualification's mark reads
 that painter's entries, under section 12.1.
 Covered by: section 12.1; claim ten. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case H3 — a qualification applied by appending
 
@@ -724,6 +844,8 @@ qualification as painter where the operation paints,
 under section 12.1 and `spec.md` section 9.2 clause 1.
 Covered by: section 12.1. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case H4 — an edge spanning two levels, painted at one
 
 Instance: an edge meeting the bounds of two levels; a
@@ -732,6 +854,8 @@ Does: the edge is painted whole, and the painting is
 visible in the views of both levels; the edge is
 never split or copied by level, under section 12.2.
 Covered by: section 12.2. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case H5 — the intended mark where both entries stand
 
@@ -742,6 +866,8 @@ paint's own witness passing.
 Does: the mark is painted, under section 12.3.
 Covered by: section 12.3; claim ten. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case H6 — the intended mark where only one entry stands
 
@@ -755,6 +881,8 @@ mark stands from this run on that edge.
 Covered by: section 12.3; claim ten. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ## Family I — intent and new information
 
 ### Case I1 — an intent term already collected, in a wide edge
@@ -766,6 +894,8 @@ derived set; every term of the edge is a member of the
 derived set, under section 13.1 source three.
 Covered by: section 13.1; claim eleven. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case I2 — an intent term not yet captured
 
@@ -779,6 +909,8 @@ under sections 13.1 and 13.3.
 Covered by: sections 13.1 and 13.3; claims eleven and
 twelve. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case I3 — new information joining a collected term on a witness
 
 Instance: a join candidate joining a term not
@@ -790,6 +922,8 @@ stands in the overlap source, its edge being the
 merged edge, under sections 8 step 6 and 13.3.
 Covered by: sections 13.2 and 13.3; claim eleven.
 State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case I4 — intent overlapping a filtered view
 
@@ -803,6 +937,8 @@ evidence for nothing, under sections 11.2 and 13.1.
 Covered by: sections 13.1 and 13.3; claim twelve.
 State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case I5 — intent overlapping an edge spanning levels
 
 Instance: an intent term in an edge that meets the
@@ -813,6 +949,8 @@ membership, whichever level the reading is taken at,
 under sections 12.2 and 13.2.
 Covered by: section 13.2; claim eleven. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case I6 — two intents, two painters, one term
 
@@ -826,6 +964,8 @@ neither replaces the other.
 Covered by: sections 13.2 and 12.1; claim eleven.
 State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case I7 — an empty intent list with new information present
 
 Instance: no intent items; candidates presenting
@@ -838,6 +978,8 @@ budget tests.
 Covered by: sections 2 input 5 and 13.3. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case I8 — intent stated in words, not as a term
 
 Instance: intent presented as criteria in prose, or
@@ -848,6 +990,8 @@ Covered by: section 4.3, as the interim rule of gap
 four. State: gap — gap four of `algorithm.md`
 section 19; owner, the coloring and qualification
 lane.
+
+State, 2026-11-24: gap four stands as a premise for intent in other forms — intent items in the implementation are terms only, and nothing is derived from intent stated otherwise. Owner unchanged.
 
 ### Case I9 — a new term that is a part of an intent term
 
@@ -863,6 +1007,8 @@ the parts clause applies.
 Covered by: sections 13.1 and 8 step 3. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ## Family J — order and repeat
 
 ### Case J1 — a second run with the same inputs on the output graph
@@ -877,6 +1023,8 @@ as new resolutions, is empty.
 Covered by: sections 6 and 16.3; claim four. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case J2 — the candidate list permuted
 
 Instance: the same candidates presented in a different
@@ -887,6 +1035,8 @@ may, under `spec.md` section 7.4 clause 4 and
 `algorithm.md` section 6. Determinism, claim four, is
 stated for a fixed order and is not claimed here.
 Covered by: section 6; claim seven. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
 
 ### Case J3 — a duplicate candidate in one list
 
@@ -899,6 +1049,8 @@ effected it, and its witness verdict is taken from
 the cache at no check charge, under section 7.2.
 Covered by: sections 7.2 and 8 step 5. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case J4 — a run resumed after budget exhaustion
 
@@ -913,6 +1065,8 @@ fifteen.
 Covered by: section 16.3; claim fifteen. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; the covering claim named above stands proved in proof/Resolve.lean (the claims of algorithm.md section 18, proved at this landing), and the family gate checks the proof tree.
+
 ### Case J5 — two runs at once on one graph
 
 Instance: two runs started on the same input graph at
@@ -923,6 +1077,8 @@ of the one before.
 Covered by: gap five, interim rule. State: gap — gap
 five of `algorithm.md` section 19; owner, the
 coordinator.
+
+Decided, 2026-11-24: gap five is closed by construction — the implementation is one run; runs compose in sequence on the output graph, and claim fifteen, proved at this landing, is the composition statement. The interim rule is the behavior.
 
 ## Family K — refusal and the unmeasured
 
@@ -938,6 +1094,8 @@ on its own.
 Covered by: sections 4.1 and 8 step 1. State:
 accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case K2 — a candidate that is not well formed
 
 Instance: a candidate whose term list has the wrong
@@ -947,6 +1105,8 @@ Does: refused at intake with reason form; nothing is
 appended.
 Covered by: sections 4.1 and 8 step 1. State:
 accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case K3 — a placeholder offered for an unresolved term
 
@@ -960,6 +1120,8 @@ in as the outside term's resolution, under section
 5.1 and `spec.md` section 3.2 rule 4.
 Covered by: section 5.1. State: accounted.
 
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+
 ### Case K4 — a deferred change reported as refuted
 
 Instance: a reading of a result record that treats a
@@ -969,6 +1131,8 @@ section 16.4 forbids the reading, and a party making
 it is in error against the record, not against a
 claim of the algorithm.
 Covered by: section 16.4. State: accounted.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
 
 ### Case K5 — a term never presented
 
@@ -998,3 +1162,6 @@ carry a gap state (cases B10, C8, E9, G6, I8, and J5). The hierarchy is two leve
 families by dimension, cases by number within a
 family, in the order the dimensions are listed in
 `algorithm.md` section 17.3.
+
+Decided, 2026-11-24: the implementation decides this case as stated; its behavior is fixed by the implementation in proof/Resolve.lean under the proved claims of section 18, and the family gate checks the proof tree.
+

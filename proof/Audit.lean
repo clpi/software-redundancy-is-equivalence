@@ -5,6 +5,7 @@ import Registry
 import Views
 import Controls
 import Premises
+import Resolve
 
 /-! # Axiom audit
 
@@ -53,3 +54,21 @@ import Premises
 #print axioms Control.free
 #print axioms Control.order
 #print axioms Control.filter
+#print axioms runsteps
+#print axioms claimone
+#print axioms claimtwo
+#print axioms claimthree
+#print axioms claimfour
+#print axioms claimfive
+#print axioms claimsix
+#print axioms claimsixintake
+#print axioms claimseven
+#print axioms claimeight
+#print axioms claimnine
+#print axioms claimtenalgebra
+#print axioms claimten
+#print axioms claimeleven
+#print axioms claimtwelvestep
+#print axioms claimtwelve
+#print axioms claimthirteen
+#print axioms claimfifteen
