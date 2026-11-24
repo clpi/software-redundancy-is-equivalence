@@ -51,8 +51,8 @@ loop implementation.
 `verify` inspects a complete table and candidate class IDs independently of
 the search. The example freezes the full table once, then checks each new
 join by class lookup, without rerunning refinement. Its in-process certificate
-identity is not portable across sessions; a durable implementation must bind
-the exact table and contract and check that binding before reuse. The separate pair traversal checks reachable paired states and
+identity is not portable across sessions; the durable replay below uses explicit
+content and contract binding instead. The separate pair traversal checks reachable paired states and
 distinguishes an observation or enabled-action mismatch. It is an independent
 oracle in the replay. Refinement here is a simple full-scan baseline, not an
 implementation of [Hopcroft's 1971 minimizer](https://www.cs.cmu.edu/~cdm/resources/Hopcroft1971.pdf)
@@ -97,3 +97,36 @@ success iff arbitrary code halts to one that never reports it. A general
 decision procedure for that equivalence would decide halting. The constructive
 claim is a reusable proof interface for any supplied semantics and exact
 checking on a complete finite resolved domain, with honest open cases.
+
+
+## Durable, scoped replay and concurrency
+
+Run `python3 examples/behavior/durable.py`. It records two actual SQLite WAL
+sessions that agree on both visible database values and open transaction state.
+After the writer commits 0 → 1 → 0 in one session, the same next write succeeds
+in the fresh session and returns `SQLITE_BUSY_SNAPSHOT` in the stale one.
+[SQLite's isolation specification](https://sqlite.org/isolation.html) documents
+this distinction. The fixture is a declared two-connection schedule, not a
+complete SQLite transition extractor.
+
+The replay stores immutable, typed content-addressed objects. The table binds
+stable state/action IDs, semantics, projection and closed rows. Partition names
+are not stored: reload reconstructs classes by canonical order and verifies
+them. The qualification separately binds that table to a lineage, release,
+coverage declaration, extractor and checker. The caller must supply the
+expected qualification and trusted prior head; the same table can serve both
+lineages, but one lineage cannot pick up the other's journal. The join journal
+uses the qualification digest and prior head and appends without revisiting
+the old entries during a live session. A clean Python subprocess reads,
+reconstructs and checks the retained chain. Immutable records do not replace the
+canonical graph; these are evidence objects for its scoped joins, not a second
+class authority. This reference does not sign qualifications, warrant coverage,
+prevent rollback without a separately retained trusted head, or promise
+power-loss durability. Startup currently rechecks the full table and retained
+journal. This is not a production storage or throughput benchmark.
+
+`Binding.lean` proves exact structural equality and rejection across scopes,
+append preservation, and composition with a synchronized environment that sees
+only the declared component observation. The latter preserves finite ordered
+behavior; it does not assert scheduler fairness, or cover a context with extra
+access to hidden state. Lean does not verify the Python codec, SHA-256 or SQLite.
