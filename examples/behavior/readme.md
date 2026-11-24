@@ -160,3 +160,35 @@ enumeration, not a bound on every compressed e-graph. A cycle alone does not
 imply infinitely many canonical nodes: a normalized wrap can re-emit the same
 node. Reversed search is valid only for enumerable predecessor generation in
 the declared search model, and extracted paths still require proof.
+
+## Bidirectional policy control with conserved credit
+
+Run `python3 examples/behavior/guided.py`. The reference uses a finite
+indexed directed rewrite graph, typed first-order disagreement residuals with
+shared mismatch variables, an AC-invariant typed operator/leaf bag, supplied
+witness-count tie breaks, and a deterministic four-plus-one selection policy.
+The 80/20 control is for selection slots, not a beam completeness guarantee.
+A separate eight-edge control actually exercises an exploration slot.
+Opposing frontier hits are stitched using inverses of the index, not claimed
+inverses of the executable transformation; every edge replays forward under
+an independent polynomial checker. Concrete disagreement may prune but
+agreement never authorizes any edge. A witness is an endpoint only when a
+candidate expression implementing that observation is separately specified.
+
+UCB1 ranks indexed choices between witness rows using historical visits and
+winning provenance, with deterministic ties; its statistical regret
+assumptions are not asserted for this workload. Credit is at most once per
+scope and endpoint pair with a strict residual decrease at the certified
+collision. A successful collision ends the current search, so residual credit
+carries to future work rather than retroactively making the completed search
+cheaper. This control does not implement partial congruence-closure dividends.
+
+Allocation and match counters use conserved accounts, with a finite reserve.
+Credit transfers from reserve; it does not undo allocations or replenish
+lifetime work. Lean checks the lifetime bound, debit and no-mint invariant.
+Depth caps each anchored path. These are logical counters: upfront index
+construction, oracle cost, actual bytes, rebuilding work and wall time are not
+measured or certified by the counters. A production implementation must meter
+or bound these separately. The example is not an Idol-native e-hypergraph
+backend or a claim of order-independent completeness, exact shortest meeting,
+or a general square-root speedup.

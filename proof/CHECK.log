@@ -62,5 +62,9 @@ Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
 'Control.free' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Control.order' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Control.filter' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.lifetime' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.creditSpendsNothing' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.paySpent' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.noMint' depends on axioms: [propext, Quot.sound]
 Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
 Axioms printed: Classical.choice Quot.sound propext 
