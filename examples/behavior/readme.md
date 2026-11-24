@@ -244,3 +244,32 @@ be replaced by a `BASE` token in an exported certificate. Persist qualified
 join evidence and scope in the canonical ledger; persist only versioned
 aggregates for scheduling, not the full speculative arena. No reward or
 bonus is itself a proof or an authorization to mint fuel.
+
+## Precharged selector and zero-yield joins
+
+Run `python3 examples/behavior/metered.py`. The old timing receipt is
+historical: its ablations masked computed axis values, so they compared
+ordering, not the CPU saved by genuinely disabling the axis. The selector now
+computes fixed rank keys once per queued state; disabled distance components
+are not evaluated. The exploration heap uses dynamic visit keys and charges
+stale removal; queue rows and heap entries are both counted. The merge-credit
+check has a separately charged residual; disabling rank anti-unification
+does not remove that condition or skip proof replay.
+
+A shared precharge rail covers the reference indexing, rank evaluations,
+queue events, cursor advances, witnessed evaluations, proof calls and path
+replay. Exhaustion refuses the next event and discards that temporary search,
+not the retained canonical graph. Existing finite allocations, matching and
+depth limits remain separate. Here a unit is a named engine event. For example
+a heap update costs one event, not one CPU instruction; polynomial checking
+and index sorting still require their own inner accounting in a production
+engine. There is no claim that these counters bound time, peak bytes, or
+non-yielding work in arbitrary programs.
+
+The empty-frontier control charges all 4,096 advances and only 4,096 static
+key calculations (the scan equivalent is 8,390,656). A repeated-variable
+indexed join with disjoint inputs returns no matches but pays for 4,096 index
+inserts and 4,096 probes; one fewer ticket prevents the final probe. Randomized
+ties, retirements and exploration-key changes compare to a scanning selector.
+The tighter 500-event matched budget changes the policy ranking; do not
+compare its counts directly against the older, less complete work budget.

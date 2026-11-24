@@ -5,6 +5,7 @@ from decimal import Decimal, localcontext
 import json
 
 from search_boundary import polynomial, size
+from selector import Queue
 
 
 @dataclass(frozen=True)
@@ -59,9 +60,19 @@ def signature(t):
     return Counter({("leaf", type(t).__name__, "int"): 1})
 
 
-def distance(a, b, density):
-    x, y = signature(a), signature(b)
-    return residual(a, b), sum((x-y).values()) + sum((y-x).values()), -density[a]
+def distance(a, b, density, axes=(True, True, True), pay=lambda _: None):
+    gap = bag = evidence = 0
+    if axes[0]:
+        pay("anti_unification")
+        gap = residual(a, b)
+    if axes[1]:
+        pay("bag_distance")
+        x, y = signature(a), signature(b)
+        bag = sum((x-y).values()) + sum((y-x).values())
+    if axes[2]:
+        pay("density_lookup")
+        evidence = -density[a]
+    return gap, bag, evidence
 
 
 def observed(t, values):
@@ -88,12 +99,18 @@ class Credit:
             turns = Decimal(sum(self.selections.values()))
             return Decimal(self.wins[rule]) / n + (2 * turns.ln() / n).sqrt()
 
-    def accept(self, scope, source, target, path, allocation, match, dividend=True):
+    def accept(self, scope, source, target, path, allocation, match, dividend=True, pay=lambda _: None):
         key = (scope, frozenset((source, target)))
-        if key in self.awarded or residual(source, target) == 0:
+        if key in self.awarded:
+            return
+        pay("merge_residual")
+        if residual(source, target) == 0:
             return
         assert path and path[0].left == source and path[-1].right == target
-        assert all(polynomial(a.left) == polynomial(a.right) for a in path)
+        for a in path:
+            pay("proof_replay")
+            if polynomial(a.left) != polynomial(a.right):
+                raise ValueError("invalid proof path")
         assert all(a.right == b.left for a, b in zip(path, path[1:]))
         self.awarded.add(key)
         for rule in {arc.rule for arc in path}:
@@ -106,26 +123,36 @@ class Credit:
 def search(source, target, forward, backward, witnesses, density, credit, scope,
            allocation, match, depth, bridge=True, bidirectional=True,
            guidance=True, behavioral=True, dividend=True, stats=None,
-           axes=(True, True, True)):
+           axes=(True, True, True), rail=None):
     if stats is None:
         stats = Counter()
+    def pay(axis):
+        if rail is not None:
+            rail.pay(axis)
+    def read(t, values):
+        pay("witness_eval")
+        return observed(t, values)
     if not match.pay(1):
         return None, "match"
-    if behavioral and any(observed(node, values) != expected
+    if behavioral and any(read(node, values) != expected
            for values, expected in witnesses for node in (source, target)):
         return None, "refuted"
     if not allocation.pay(2 if bidirectional else 1):
         return None, "allocation"
-    queues = [[], []]
+    queues = [Queue(rail, bridge), Queue(rail, bridge)]
     paths = [{source: None}, {target: None}]
     endpoints = (target, source)
     indexes = (forward, backward)
-    seen_match = Counter()
     rejected = exploration = 0
 
     def push(side, node, level):
         if level < depth:
-            queues[side].append([node, level, iter(indexes[side].get(node, ()))])
+            pay("rank_key")
+            normal = ((*distance(node, endpoints[side], density, axes, pay), level, repr(node))
+                      if guidance else (level,))
+            tail = (-size(node), level, repr(node)) if bridge else ()
+            pay("index_lookup")
+            queues[side].append(node, level, iter(indexes[side].get(node, ())), normal, tail)
 
     push(0, source, 0)
     if bidirectional:
@@ -140,30 +167,26 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
             continue
         pool = queues[side]
         special = bridge and taken % 5 == 4
-        def rank(row):
-            node, level, _ = row
-            return ((seen_match[side, node], -size(node), level, repr(node)) if special
-                    else (*(v if on else 0 for v, on in zip(distance(node, endpoints[side], density), axes)),
-                          level, repr(node))
-                    if guidance else (level,))
-        chosen = min(range(len(pool)), key=lambda i: rank(pool[i]))
-        node, level, cursor = pool[chosen]
+        ident, row = pool.peek(special)
+        node, level, cursor = row.node, row.level, row.cursor
         if not match.pay(1):
             return None, "match"
+        pay("cursor_advance")
         edge = next(cursor, None)
         if edge is None:
-            pool.pop(chosen)
+            pool.retire(ident)
             continue
         taken += 1
         exploration += int(special)
         stats["exploration"] += int(special)
-        seen_match[side, node] += 1
+        pool.advanced(ident)
         credit.selections[edge.rule] += 1
         nex = edge.right if side == 0 else edge.left
-        if behavioral and any(observed(nex, values) != expected for values, expected in witnesses):
+        if behavioral and any(read(nex, values) != expected for values, expected in witnesses):
             rejected += 1
             stats["witness_refutations"] += 1
             continue
+        pay("proof_check")
         if polynomial(edge.left) != polynomial(edge.right):
             rejected += 1
             stats["proof_refusals"] += 1
@@ -177,24 +200,32 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
             def unwind(slot):
                 chain, here = [], nex
                 while paths[slot][here] is not None:
+                    pay("path_edge")
                     here, part = paths[slot][here]
                     chain.append(part)
                 return tuple(reversed(chain)) if slot == 0 else tuple(chain)
             path = unwind(0) + unwind(1)
-            credit.accept(scope, source, target, path, allocation, match, dividend)
+            pay("merge_attempt")
+            credit.accept(scope, source, target, path, allocation, match, dividend, pay)
             return path, {"wrong_steps_rejected": rejected, "exploration_pops": exploration}
         push(side, nex, level + 1)
     return None, "open"
 
 
-def indexes(arcs, credit, ucb=True):
+def indexes(arcs, credit, ucb=True, rail=None):
     f, b = defaultdict(list), defaultdict(list)
     for arc in arcs:
+        if rail is not None:
+            rail.pay("index_arc")
         f[arc.left].append(arc)
         b[arc.right].append(arc)  # predecessors preserve their original orientation
     for m in (f, b) if ucb else ():
         for row in m.values():
-            row.sort(key=lambda a: (-credit.ucb(a.rule), a.rule, repr(a.left), repr(a.right)))
+            def key(a):
+                if rail is not None:
+                    rail.pay("rule_rank_key")
+                return (-credit.ucb(a.rule), a.rule, repr(a.left), repr(a.right))
+            row.sort(key=key)
     return f, b
 
 
