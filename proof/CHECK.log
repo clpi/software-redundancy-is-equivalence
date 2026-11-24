@@ -1,4 +1,29 @@
 Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+'Behavior.coarsest' does not depend on any axioms
+'Behavior.emptyactions' does not depend on any axioms
+'Behavior.allactions' does not depend on any axioms
+'Behavior.continuationdiffers' does not depend on any axioms
+'Behavior.checkedtable' depends on axioms: [propext, Quot.sound]
+'Behavior.tablejoin' depends on axioms: [propext, Quot.sound]
+'Behavior.forward' does not depend on any axioms
+'Behavior.flip' does not depend on any axioms
+'Behavior.substitute' does not depend on any axioms
+'Behavior.chain' does not depend on any axioms
+'Behavior.sound' does not depend on any axioms
+'Behavior.checkedappend' depends on axioms: [propext]
+'Behavior.checkedjoin' depends on axioms: [propext]
+'Behavior.joinsubstitute' depends on axioms: [propext, Quot.sound]
+'Behavior.scopedTableJoin' depends on axioms: [propext, Quot.sound]
+'Behavior.boundexact' depends on axioms: [propext]
+'Behavior.differentScope' depends on axioms: [propext]
+'Behavior.extendBound' depends on axioms: [propext]
+'Behavior.syncbisim' does not depend on any axioms
+'Behavior.SearchBoundary.boundedProgress' does not depend on any axioms
+'Behavior.SearchBoundary.candidate' does not depend on any axioms
+'Behavior.SearchBoundary.nonworsening' does not depend on any axioms
+'Behavior.SearchBoundary.historyNonworsening' does not depend on any axioms
+'Behavior.SearchBoundary.boundedTicks' depends on axioms: [propext]
+'Behavior.SearchBoundary.boundedSound' does not depend on any axioms
 'witness' depends on axioms: [propext, Classical.choice, Quot.sound]
 'boundleast' depends on axioms: [propext, Quot.sound]
 'boundsat' depends on axioms: [propext, Quot.sound]
@@ -37,5 +62,12 @@ Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
 'Control.free' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Control.order' depends on axioms: [propext, Classical.choice, Quot.sound]
 'Control.filter' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.lifetime' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.creditSpendsNothing' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.paySpent' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.noMint' depends on axioms: [propext, Quot.sound]
+'Behavior.SearchBoundary.pathDecreases' does not depend on any axioms
+'Behavior.SearchBoundary.noCycle' does not depend on any axioms
+'Behavior.SearchBoundary.shorten' depends on axioms: [propext]
 Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
 Axioms printed: Classical.choice Quot.sound propext 
