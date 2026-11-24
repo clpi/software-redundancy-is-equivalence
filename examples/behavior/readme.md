@@ -192,3 +192,55 @@ measured or certified by the counters. A production implementation must meter
 or bound these separately. The example is not an Idol-native e-hypergraph
 backend or a claim of order-independent completeness, exact shortest meeting,
 or a general square-root speedup.
+
+## Matched cap ablation
+
+Run `timeout 55s python3 examples/behavior/ablate.py` on Linux. Each policy sees
+the same 144 cases (12 ordered batches of the same 12 model instances with
+witness order and per-input arc order permutations). Each batch gets the same
+86 lifetime allocation tickets and 99 matcher tickets; each cone is limited
+to depth 6. All oracle-success fixtures have a path of at most 6 edges.
+The BFS oracle exhausts the finite directed fixture graph up to depth 6
+independently of traversal priority, using exact polynomial equality as
+the trusted fixture contract, also used by every policy. A matching trace
+does not replace that test. Each policy uses its own process with a 4-second CPU limit, 512 MiB
+address-space limit and 6-second watchdog; a 55-second watchdog wraps the suite.
+Timing includes index, oracle and scheduler passes; three raw timing
+samples, whole-worker peak RSS including Python startup, and traced Python
+allocation peaks are recorded separately. None
+is a stable receipt field to compare byte-for-byte on another computer.
+This does not report end-to-end e-graph timings, per-match allocated
+bytes, real-world coverage, or a statistical performance win.
+
+The baseline is a bounded one-way breadth-first variant with the exact
+checker; it is separate from the strictly downhill control. Leave-one-out
+runs remove matching factors, and the upfront-reserve control spends exactly
+the same total potential credit without requiring a dividend. Rejected budget
+attempts are unknown, not false-equivalence claims. The no-witness-prune run
+still checks every actual merge. No restart occurred in these fixtures.
+
+## Epoch-local provenance arena
+
+Build with `cc -std=c11 -Wall -Wextra -Werror -O2 examples/behavior/arena.c -o /tmp/arena`,
+then run `/tmp/arena`. The reference uses one 16-byte node per local
+provenance ID, a flat overflow slab, and fixed depth buckets with a touched
+generation. Depth decreases strictly along all premise edges, so shared
+contributions are aggregated before the one visit to that node. Replacing
+a first derivation with a valid shallower one preserves all existing incoming
+depth inequalities; it does not guarantee the stored depths of descendants are
+globally shortest. The control tests a shared bridge, duplicate roots,
+multi-premise overflow, self-cycle and longer-cycle refusal, depth replacement
+and tag rollover. The bounded overflow slab counts even tail slots made stale
+by a shorter replacement. At the end of the epoch the local arena is reset
+by advancing its bounds; the rare generation rollover clears the scratch
+tags. No queue insertion allocates heap memory.
+
+At the declared capacity, the 16-byte layout is only the node component.
+The receipt includes the overflow slab and credit scratch. A production
+implementation must also bound its e-node-to-ID map, merge-event records,
+classes and matcher state; the example is not an integrated e-graph.
+Congruence records must be reconstructable from checked premises and cannot
+be replaced by a `BASE` token in an exported certificate. Persist qualified
+join evidence and scope in the canonical ledger; persist only versioned
+aggregates for scheduling, not the full speculative arena. No reward or
+bonus is itself a proof or an authorization to mint fuel.

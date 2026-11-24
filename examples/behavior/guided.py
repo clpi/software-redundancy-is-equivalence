@@ -88,7 +88,7 @@ class Credit:
             turns = Decimal(sum(self.selections.values()))
             return Decimal(self.wins[rule]) / n + (2 * turns.ln() / n).sqrt()
 
-    def accept(self, scope, source, target, path, allocation, match):
+    def accept(self, scope, source, target, path, allocation, match, dividend=True):
         key = (scope, frozenset((source, target)))
         if key in self.awarded or residual(source, target) == 0:
             return
@@ -99,18 +99,22 @@ class Credit:
         for rule in {arc.rule for arc in path}:
             self.wins[rule] += 1
         # Credited work transfers finite reserve; does not unspend resources.
-        for wallet in allocation, match:
+        for wallet in (allocation, match) if dividend else ():
             wallet.grant(min(len(path), wallet.spent // 2))
 
 
 def search(source, target, forward, backward, witnesses, density, credit, scope,
-           allocation, match, depth, bridge=True):
+           allocation, match, depth, bridge=True, bidirectional=True,
+           guidance=True, behavioral=True, dividend=True, stats=None,
+           axes=(True, True, True)):
+    if stats is None:
+        stats = Counter()
     if not match.pay(1):
         return None, "match"
-    if any(observed(node, values) != expected
+    if behavioral and any(observed(node, values) != expected
            for values, expected in witnesses for node in (source, target)):
         return None, "refuted"
-    if not allocation.pay(2):
+    if not allocation.pay(2 if bidirectional else 1):
         return None, "allocation"
     queues = [[], []]
     paths = [{source: None}, {target: None}]
@@ -124,7 +128,8 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
             queues[side].append([node, level, iter(indexes[side].get(node, ()))])
 
     push(0, source, 0)
-    push(1, target, 0)
+    if bidirectional:
+        push(1, target, 0)
     turn = taken = 0
     if source == target:
         return (), "identity"
@@ -138,7 +143,9 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
         def rank(row):
             node, level, _ = row
             return ((seen_match[side, node], -size(node), level, repr(node)) if special
-                    else (*distance(node, endpoints[side], density), level, repr(node)))
+                    else (*(v if on else 0 for v, on in zip(distance(node, endpoints[side], density), axes)),
+                          level, repr(node))
+                    if guidance else (level,))
         chosen = min(range(len(pool)), key=lambda i: rank(pool[i]))
         node, level, cursor = pool[chosen]
         if not match.pay(1):
@@ -149,14 +156,17 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
             continue
         taken += 1
         exploration += int(special)
+        stats["exploration"] += int(special)
         seen_match[side, node] += 1
         credit.selections[edge.rule] += 1
         nex = edge.right if side == 0 else edge.left
-        if any(observed(nex, values) != expected for values, expected in witnesses):
+        if behavioral and any(observed(nex, values) != expected for values, expected in witnesses):
             rejected += 1
+            stats["witness_refutations"] += 1
             continue
         if polynomial(edge.left) != polynomial(edge.right):
             rejected += 1
+            stats["proof_refusals"] += 1
             continue
         if nex in paths[side]:
             continue
@@ -171,18 +181,18 @@ def search(source, target, forward, backward, witnesses, density, credit, scope,
                     chain.append(part)
                 return tuple(reversed(chain)) if slot == 0 else tuple(chain)
             path = unwind(0) + unwind(1)
-            credit.accept(scope, source, target, path, allocation, match)
+            credit.accept(scope, source, target, path, allocation, match, dividend)
             return path, {"wrong_steps_rejected": rejected, "exploration_pops": exploration}
         push(side, nex, level + 1)
     return None, "open"
 
 
-def indexes(arcs, credit):
+def indexes(arcs, credit, ucb=True):
     f, b = defaultdict(list), defaultdict(list)
     for arc in arcs:
         f[arc.left].append(arc)
         b[arc.right].append(arc)  # predecessors preserve their original orientation
-    for m in (f, b):
+    for m in (f, b) if ucb else ():
         for row in m.values():
             row.sort(key=lambda a: (-credit.ucb(a.rule), a.rule, repr(a.left), repr(a.right)))
     return f, b
