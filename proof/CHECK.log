@@ -18,6 +18,12 @@ Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
 'Behavior.differentScope' depends on axioms: [propext]
 'Behavior.extendBound' depends on axioms: [propext]
 'Behavior.syncbisim' does not depend on any axioms
+'Behavior.SearchBoundary.boundedProgress' does not depend on any axioms
+'Behavior.SearchBoundary.candidate' does not depend on any axioms
+'Behavior.SearchBoundary.nonworsening' does not depend on any axioms
+'Behavior.SearchBoundary.historyNonworsening' does not depend on any axioms
+'Behavior.SearchBoundary.boundedTicks' depends on axioms: [propext]
+'Behavior.SearchBoundary.boundedSound' does not depend on any axioms
 'witness' depends on axioms: [propext, Classical.choice, Quot.sound]
 'boundleast' depends on axioms: [propext, Quot.sound]
 'boundsat' depends on axioms: [propext, Quot.sound]

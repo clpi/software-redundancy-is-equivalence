@@ -130,3 +130,33 @@ append preservation, and composition with a synchronized environment that sees
 only the declared component observation. The latter preserves finite ordered
 behavior; it does not assert scheduler fairness, or cover a context with extra
 access to hidden state. Lean does not verify the Python codec, SHA-256 or SQLite.
+
+## Witness-prioritized search, separate from certification
+
+Run `python3 examples/behavior/search_boundary.py`. The trace or example
+selects work; a separately checked semantic relation justifies the join.
+Search may hold temporarily expensive candidates without allowing an expensive
+release successor. `SearchBoundary.lean` separates these using a qualified
+state, a componentwise constructive release relation, and a fuelled loop; it
+checks the step count and composes release progress for a fixed cost vector.
+It does not assume a weight ranking is a proof or that two revisions compare
+under incompatible observations or cost models.
+
+The pure-integer fixture uses an independent polynomial normal form and a
+deliberately restricted rewrite successor set, not a production e-graph.
+An expanding 7 → 9 node step makes a 1-node result reachable. Two attempts give
+different incumbents with a different initial branch order; a third attempt
+finds the same 1-node result. A single observed equality at x=0 cannot admit
+the unsupported x → 0 rewrite. The counted attempts are not CPU timings.
+A real matcher must meter intermediate join work and allocations, including
+failed attempts and maintenance. Backoff controls priority, not memory or
+wall time. A witness defines a search starting point; a dependency cut can
+exclude work only with a checked completeness argument or an explicit scope.
+
+The control brute-forces ordered, disjoint nonempty child-subset pairs for AC
+through 8 distinct atoms. Across all subsets their count is
+`3^n - 2·2^n + 1`. This is a count of candidate binary partitions for explicit
+enumeration, not a bound on every compressed e-graph. A cycle alone does not
+imply infinitely many canonical nodes: a normalized wrap can re-emit the same
+node. Reversed search is valid only for enumerable predecessor generation in
+the declared search model, and extracted paths still require proof.
