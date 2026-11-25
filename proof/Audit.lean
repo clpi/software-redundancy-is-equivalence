@@ -7,6 +7,7 @@ import Controls
 import Premises
 import Resolve
 import Schedule
+import Wiring
 
 /-! # Axiom audit
 
@@ -96,3 +97,18 @@ import Schedule
 #print axioms Sched.stepbound
 #print axioms Sched.stepmerge
 #print axioms Sched.sweepgates
+#print axioms Wire.wiredmem
+#print axioms Wire.wiredgates
+#print axioms Wire.wiredbridge
+#print axioms Wire.wiredvisits
+#print axioms Wire.reportmerge
+#print axioms Wire.reportbackoff
+#print axioms Wire.wsweepseq
+#print axioms Wire.wsweepsone
+#print axioms Wire.wsweepsmore
+#print axioms Wire.wsweepsstopv
+#print axioms Wire.wsweepsmorev
+#print axioms Wire.wsweepsfold
+#print axioms Wire.wsweepsgates
+#print axioms Wire.wrunsteps
+#print axioms Wire.wclaimone

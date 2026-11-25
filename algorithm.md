@@ -1837,3 +1837,77 @@ the scheduler is the selection and accounting layer
 the rulings specify, and wiring the run's candidate
 pool through the bounded pass is the follow-on step,
 not part of this landing.
+
+## 23. Wiring addendum, 2026-11-24
+
+The follow-on named in section 22 is implemented.
+proof/Wiring.lean projects every resolver candidate
+to a scheduler candidate from the resolver's own
+values, read at the pass's starting graph, and
+routes the pool through the bounded pass at the head
+of every pass of a wired run:
+
+- The projection: a candidate's rule is its kind's
+  position in the visiting order (the resolver's
+  rule table is its four kinds); its cone field is
+  relevance at that graph against the run's
+  candidate list — relevance and the derived set
+  are the cone, per section 21, and relevance is
+  the visit's own first test; its depth is the
+  deepest nesting of its terms, counted from the
+  terms themselves (the resolver carried no
+  instantiation depth; gap eleven's interim rule
+  named the absence, and the count is now defined);
+  its gain is the visiting key of section 6 packed
+  as one number and negated, with pool-derived
+  radices, a candidate of no cost at that graph
+  placed above every counted cost in its pool, so
+  the beam's rank over gains is the rank by the
+  run's own visiting order; its bridge flag marks
+  a candidate presenting a term not yet collected
+  that another pool candidate also acts on.
+- The wired pool is the pool's survivors of the
+  bounded pass, in the pool's own order. Proved:
+  everything in it is a pool member, in the cone,
+  within the depth cap, and of a rule with fuel
+  (wiredgates, from the scheduler's sweepgates);
+  and a bridge candidate passing the three gates
+  is in it whatever its rank (wiredbridge, from
+  beambridge).
+- The wired pass is the run's own pass over the
+  wired pool; the wired sweeps thread the scheduler
+  plan through the run's own stop condition and
+  fuel, each pass read under the plan in force at
+  its start. Proved: every verdict of a wired pass,
+  and of the wired sweeps, is the visit of a pool
+  candidate that passed every gate at its pass's
+  starting graph (wiredvisits, wsweepsgates).
+- The report back: each resolved visit fires its
+  kind's rule through the scheduler's step
+  function, growth one, counting as a merge exactly
+  when the candidate's terms all stood collected at
+  the pass's starting graph. Proved: a reported
+  merge restores the base allowance and clears the
+  stall (reportmerge, from stepmerge), and a
+  reported unmerged fire refreshes the allowance
+  under the exponential backoff (reportbackoff,
+  from stepfuel).
+- The wired run is the run of section 8 with its
+  sweeps wired; intake and the target step are the
+  run's own. Proved: the wired run decomposes into
+  one gated trace whose fold is the output graph
+  (wrunsteps, by runsteps' argument over the wired
+  sweeps' fold), and claim one holds for it —
+  validity and growth of the output on a valid
+  input (wclaimone). No proved theorem of the run
+  or the scheduler is restated or weakened; the
+  wiring's claims are proved from theirs.
+
+By the register's rule, the wiring stands at
+implemented behavior in this tree and at verified
+behavior when the family gate checks the tree at
+its landed pin; the gate's log at that pin is the
+record of it. The unwired run stands unchanged
+beside it: resolve and its claims are untouched,
+and a caller chooses the wired run by supplying a
+plan, a depth cap, and a beam width.
