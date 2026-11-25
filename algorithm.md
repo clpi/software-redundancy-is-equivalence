@@ -1767,3 +1767,73 @@ eleven).
   rule: the implementation keeps no derivation
   record; verdicts and the result record are the
   only record of a run. Owner: the coordinator.
+
+## 22. Scheduler addendum, 2026-11-24
+
+The scheduler step has landed. proof/Schedule.lean
+implements the design the two rulings of 2026-11-24
+register as gaps nine to thirteen, in the proof tree
+and under the family gate, porting the supplied
+reference implementation's semantics at its own
+constants in exact rational arithmetic (the toolchain
+carries no public rational type, so the file carries
+its own, compared by cross multiplication; the
+reference's floating point rounding is not
+reproduced). The interim rules of section 21 are
+superseded for these five gaps by the implemented
+behavior:
+
+- Gap nine, per-rule fuel and backoff: implemented.
+  The scheduler state carries a per-rule allowance
+  and a per-rule count of consecutive fires without
+  a merge; a fire at zero allowance is refused, a
+  merge clears the count and restores the base
+  allowance, and an unmerged fire refreshes the
+  allowance to the base divided by two to the count.
+  The bound is proved: the refreshed allowance times
+  two to the count does not exceed the base.
+- Gap ten, bidirectional scoring: implemented. A
+  candidate's score is the forward distance reduction
+  toward the witnessed class plus the backward
+  distance reduction, and selection is proved to
+  return a candidate of maximal score from the pool.
+- Gap eleven, instantiation depth: implemented as a
+  gate. Candidates carry a depth count; the bounded
+  pass returns no candidate past the cap, proved for
+  everything the pass returns.
+- Gap twelve, beam and bridge steps: implemented as
+  a rank beam. Every bridge candidate of the pool
+  survives the beam whatever its rank, proved; every
+  other survivor stands within the width by rank,
+  with ties sharing a rank.
+- Gap thirteen, provenance: implemented. The arena
+  is flat and dense under first-parent-wins minimum
+  depth (a non-shallower re-derivation is refused,
+  proved), with the base sentinel shared by all
+  prior-epoch nodes, an overflow slab for premises
+  beyond two, and the backward credit walk in
+  descending depth order: reward is the heuristic
+  reduction, doubled on cone collision, decayed by
+  17/20 per hop, at the 3/2 bridge bonus, capped per
+  node at the total reward, with sentinel rules
+  skipped by one range check. At epoch close the
+  deltas flush into the global rule table — credit,
+  allocations, fires — which is the only provenance
+  state that persists; the arena resets to the base
+  sentinel alone. The reference's first control is
+  carried in as an executed test in the tree: the
+  bridge-through-congruence scenario's accounting is
+  proved by kernel computation at the exact values
+  (simplification 17/2, bridge 867/80, sentinel
+  nothing).
+
+By the register's rule, gaps nine to thirteen stand
+at implemented behavior at this landing and at
+verified behavior when the family gate checks the
+tree at the landed pin; the gate's log at that pin
+is the record of it. The resolution run's own loop
+still applies operations under its proved claims;
+the scheduler is the selection and accounting layer
+the rulings specify, and wiring the run's candidate
+pool through the bounded pass is the follow-on step,
+not part of this landing.

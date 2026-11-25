@@ -55,5 +55,28 @@ Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
 'claimtwelve' depends on axioms: [propext, Classical.choice, Quot.sound]
 'claimthirteen' depends on axioms: [propext, Classical.choice, Quot.sound]
 'claimfifteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Sched.qminle' depends on axioms: [propext]
+'Sched.resetnodes' does not depend on any axioms
+'Sched.resetlen' depends on axioms: [propext]
+'Sched.putlen' depends on axioms: [propext]
+'Sched.getput' depends on axioms: [propext]
+'Sched.recordfresh' depends on axioms: [propext]
+'Sched.recordkeeps' depends on axioms: [propext]
+'Sched.flushlen' depends on axioms: [propext]
+'Sched.depositcap' depends on axioms: [propext]
+'Sched.scentable' depends on axioms: [propext]
+'Sched.scenarena' depends on axioms: [propext]
+'Sched.scoreparts' does not depend on any axioms
+'Sched.bettergain' depends on axioms: [propext, Quot.sound]
+'Sched.foldpick' depends on axioms: [propext, Quot.sound]
+'Sched.pickmem' depends on axioms: [propext, Quot.sound]
+'Sched.pickmax' depends on axioms: [propext, Quot.sound]
+'Sched.beambridge' depends on axioms: [propext]
+'Sched.beamrank' depends on axioms: [propext]
+'Sched.stepnone' depends on axioms: [propext]
+'Sched.stepfuel' depends on axioms: [propext]
+'Sched.stepbound' depends on axioms: [propext]
+'Sched.stepmerge' depends on axioms: [propext]
+'Sched.sweepgates' depends on axioms: [propext]
 Axiom subset check passed: printed axioms are a subset of {propext, Classical.choice, Quot.sound}
 Axioms printed: Classical.choice Quot.sound propext 

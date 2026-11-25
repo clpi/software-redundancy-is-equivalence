@@ -6,6 +6,7 @@ import Views
 import Controls
 import Premises
 import Resolve
+import Schedule
 
 /-! # Axiom audit
 
@@ -72,3 +73,26 @@ import Resolve
 #print axioms claimtwelve
 #print axioms claimthirteen
 #print axioms claimfifteen
+#print axioms Sched.qminle
+#print axioms Sched.resetnodes
+#print axioms Sched.resetlen
+#print axioms Sched.putlen
+#print axioms Sched.getput
+#print axioms Sched.recordfresh
+#print axioms Sched.recordkeeps
+#print axioms Sched.flushlen
+#print axioms Sched.depositcap
+#print axioms Sched.scentable
+#print axioms Sched.scenarena
+#print axioms Sched.scoreparts
+#print axioms Sched.bettergain
+#print axioms Sched.foldpick
+#print axioms Sched.pickmem
+#print axioms Sched.pickmax
+#print axioms Sched.beambridge
+#print axioms Sched.beamrank
+#print axioms Sched.stepnone
+#print axioms Sched.stepfuel
+#print axioms Sched.stepbound
+#print axioms Sched.stepmerge
+#print axioms Sched.sweepgates
